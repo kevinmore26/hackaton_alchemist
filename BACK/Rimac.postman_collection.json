@@ -1,0 +1,144 @@
+{
+	"info": {
+		"_postman_id": "b3a861b2-7259-4269-b2a3-2431af89dbad",
+		"name": "Rimac",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36477581"
+	},
+	"item": [
+		{
+			"name": "User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"Guillermo Mujica\",\r\n    \"email\":\"gmd_02@hotmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/users",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "score",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idPersona\":1,\r\n    \"date\":\"2024-06-23\",\r\n    \"dateTime\":\"2024-06-23 02:01:01\",\r\n    \"score\" : 587,\r\n    \"feelings\" : 392,\r\n    \"lifestyle\" : 764,\r\n    \"body\" : 558,\r\n    \"movement\" : 590,\r\n    \"nutrition\" : 971,\r\n    \"smoking\" : 1000,\r\n    \"obesity\" : 949,\r\n    \"sleep\" : 724,\r\n    \"wellness\" : 564,\r\n    \"stress\" : 156,\r\n    \"depression\" : 517,\r\n    \"indulgences\" : 727,\r\n    \"mindfulness\" : 564,\r\n    \"platform\" : \"rimac-prod\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/scores",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"scores"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "score",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idPersona\":1,\r\n    \"date\":\"2024-06-23\",\r\n    \"dateTime\":\"2024-06-23 02:01:01\",\r\n    \"score\" : 587,\r\n    \"feelings\" : 392,\r\n    \"lifestyle\" : 764,\r\n    \"body\" : 558,\r\n    \"movement\" : 590,\r\n    \"nutrition\" : 971,\r\n    \"smoking\" : 1000,\r\n    \"obesity\" : 949,\r\n    \"sleep\" : 724,\r\n    \"wellness\" : 564,\r\n    \"stress\" : 156,\r\n    \"depression\" : 517,\r\n    \"indulgences\" : 727,\r\n    \"mindfulness\" : 564,\r\n    \"platform\" : \"rimac-prod\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/scores",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"scores"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "score<id>",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"idPersona\":1,\r\n    \"date\":\"2024-06-23\",\r\n    \"dateTime\":\"2024-06-23 02:01:01\",\r\n    \"score\" : 587,\r\n    \"feelings\" : 392,\r\n    \"lifestyle\" : 764,\r\n    \"body\" : 558,\r\n    \"movement\" : 590,\r\n    \"nutrition\" : 971,\r\n    \"smoking\" : 1000,\r\n    \"obesity\" : 949,\r\n    \"sleep\" : 724,\r\n    \"wellness\" : 564,\r\n    \"stress\" : 156,\r\n    \"depression\" : 517,\r\n    \"indulgences\" : 727,\r\n    \"mindfulness\" : 564,\r\n    \"platform\" : \"rimac-prod\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/api/scores",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"scores"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
