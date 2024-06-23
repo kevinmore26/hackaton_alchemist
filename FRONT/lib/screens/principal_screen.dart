@@ -95,11 +95,11 @@ class HomeContent extends StatelessWidget {
     data = data.map((graph) => graph.sublist(0, numberOfFeatures.floor())).toList();
 
     final List<SalesData> lineChartData = [
-      SalesData(DateTime(2023, 1, 1), 35),
-      SalesData(DateTime(2023, 2, 1), 28),
-      SalesData(DateTime(2023, 3, 1), 34),
-      SalesData(DateTime(2023, 4, 1), 32),
-      SalesData(DateTime(2023, 5,1), 40)
+      SalesData(DateTime(2023, 1, 1), 850),
+      SalesData(DateTime(2023, 2, 1), 680),
+      SalesData(DateTime(2023, 3, 1), 740),
+      SalesData(DateTime(2023, 4, 1), 420),
+      SalesData(DateTime(2023, 5,1), 500)
     ];
 
     return CustomScrollView(
@@ -172,7 +172,7 @@ class HomeContent extends StatelessWidget {
                                 fontWeight: FontWeight.bold),
                           ),
                           const Text(
-                            '85', // Número del score actual, puedes cambiarlo dinámicamente
+                            '500', // Número del score actual, puedes cambiarlo dinámicamente
                             style: TextStyle(
                                 color: Colors.black,
                                 fontSize: 18,
